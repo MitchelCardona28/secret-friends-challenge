@@ -1,7 +1,23 @@
 let names = []
 
 function addFriend() {
-    const inputName = document.getElementById('friend-name').value
+    let inputName = document.getElementById('friend-name')
+    const friendList = document.getElementById('friends-list')
 
-    names.push(inputName)
+    if (inputName.value === "") {
+        alert("Go ahead and add a name to the list.")
+        return
+    }
+    names.push(inputName.value)
+
+    const namesList = names.map(name => {
+        return `<li>${name}</li>`
+    }).join("")
+
+    inputName.value = ""
+    friendList.innerHTML = namesList
 }
+
+// function drawFriend() {
+//     // 
+// }
