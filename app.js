@@ -18,6 +18,20 @@ function addFriend() {
     friendList.innerHTML = namesList
 }
 
-// function drawFriend() {
-//     // 
-// }
+function drawFriend() {
+    const resultList = document.getElementById('result-list')
+    // Make sure the Names array isn't empty.
+    if (names.length === -1) {
+        return
+    }
+
+    // Create a random function
+    const randomName = Math.floor(Math.random() * names.length) + 1
+
+    // Pick a random name from the Names array
+    const selectedName = names[randomName]
+
+    // Show the name that's been selected.
+    resultList.innerHTML = `<li>${selectedName}</li>`
+
+}
