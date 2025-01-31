@@ -37,7 +37,7 @@ function drawFriend() {
     const resultList = document.getElementById('result-list')
     const friendsList = document.getElementById('friends-list')
 
-    // Make sure the Names array isn't empty.
+    // Make sure the "names" array isn't empty.
     if (names.length === 0) {
         alert("Could you add a name to the list, please?")
         return
