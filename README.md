@@ -15,15 +15,15 @@
 
 ## Introduction
 
-Secret Friends is a classic game that we play in September. The goal is to get a group of people together, pick someone at random, and give them a gift.
+Secret Friends is a classic game that's played with a group of coworkers, classmates, family, or friends. The goal is to get a group of people together, pick someone at random, and give them a gift.
 
 ## How it works?
 ### Features
+1. Type in the names of the contestants
+
+
 
 ## Project implementation
 
 ## License
-
-
-
-
+License MIT
