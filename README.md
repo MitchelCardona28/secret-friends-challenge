@@ -39,6 +39,7 @@ Secret Friends is a classic game that's played with a group of coworkers, classm
 
 ## Project implementation
 
+ | [<img src="./assets/svg/html5.svg" height="50px"><br><sub>HTML5</sub>] | <img src="./assets/svg/css.svg" height="50px"><br><sub>CSS3</sub>] | <img src="./assets/svg/javascript.svg" height="50px"><br><sub>Javascript</sub>] | :---: | :---: 
 
 ## License
 License MIT
